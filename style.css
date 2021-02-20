@@ -1,0 +1,274 @@
+body {
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  margin: 10% 0 0 0;
+}
+
+h1, h2, h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+}
+
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+button {
+  color: #fff;
+  border-style: none;
+  height: 40px;
+  width: 200px;
+  padding: 0 15px 0 15px;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.socialapp:hover {
+  filter: opacity(0.7) drop-shadow(0 0 hsl(171, 66%, 44%)) saturate(1000%);
+}
+
+.buttoniOS {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 2px 5px 2px hsla(171, 66%, 44%, 0.5);
+}
+
+.buttonMac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 2px 5px 2px hsla(233, 100%, 69%, 0.5);
+}
+
+.firstpage {
+  text-align: center;
+  margin: 0 30%;
+}
+
+.computer-image {
+  margin-top: 5%;
+}
+
+.rt-sec-comp {
+  width: 25%;
+  float: right;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+.secondpage {
+  text-align: center;
+  margin: 0 30%;
+}
+
+.devicesimg {
+  margin-left: -20%;
+}
+
+.iconsection {
+  display: flex;
+  margin-top: 5%;
+}
+
+.iconindividual {
+  text-align: center;
+  width: 25%;
+  margin-left: 5%;
+}
+
+.logoX {
+  margin: 5%;
+}
+
+.clipboard {
+  text-align: center;
+  margin: 0 30%;
+}
+
+footer {
+  background-color: hsla(201, 11%, 66%, 0.5);
+  color: hsl(210, 10%, 33%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footersection {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.footerlogo {
+  width: 75px;
+  grid-row: 1/ span 2;
+  grid-column: 1;
+  margin: auto;
+}
+
+.faq {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.Contact {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.policy {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.press {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.guide {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+.socialicons {
+  margin-top: -85px;
+  float: right;
+  padding: 20px;
+}
+
+.socialapp {
+  padding: 5px;
+}
+
+@media only screen and (max-width:575px) {
+  body {
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 10% 10% 0 10%;
+  }
+
+  .firstpage {
+    width: 100%;
+    margin: 0;
+  }
+
+  .computer-image {
+    width: 100%;
+  }
+
+  .rt-sec-comp {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .secondpage {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .devicesimg {
+    width: 100%;
+    margin: 0;
+  }
+
+  .iconsection {
+    display: block;
+    margin: 0;
+  }
+
+  .iconindividual {
+    text-align: center;
+    width: 100%;
+  }
+
+  .logoX {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  .clipboard {
+    text-align: center;
+    margin: 0;
+  }
+
+  .btnend {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin: 20px;
+  }
+
+  footer {
+    margin: 0 -10% 0 -10%;
+  }
+
+  .footersection {
+    grid-template-columns: auto;
+  }
+
+  .footerlogo {
+    grid-row: 1;
+    grid-column: 1;
+    margin: auto;
+  }
+
+  .faq {
+    grid-row: 2;
+    grid-column: 1;
+    margin: auto;
+    padding: 20px 0 20px 0;
+  }
+
+  .Contact {
+    grid-row: 3;
+    grid-column: 1;
+    margin: auto;
+    padding: 20px 0 20px 0;
+  }
+
+  .policy {
+    grid-row: 4;
+    grid-column: 1;
+    margin: auto;
+    padding: 20px 0 20px 0;
+  }
+
+  .press {
+    grid-row: 5;
+    grid-column: 1;
+    margin: auto;
+    padding: 20px 0 20px 0;
+  }
+
+  .guide {
+    grid-row: 6;
+    grid-column: 1;
+    margin: auto;
+    padding: 20px 0 40px 0;
+  }
+
+  .socialicons {
+    margin: 0 30% 0 30%;
+    float: none;
+    text-align: center;
+  }
+
+  .socialapp {
+    padding-right: 15px;
+  }
+}
